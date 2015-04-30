@@ -56,6 +56,7 @@ MessageService.getMessages().then(function(response) {
   $scope.messages = response.data;
 });
 ```
+// DONE
 
 * Use the ng-repeat directive to create div elements for every message so that you can display the messages from the server
 
